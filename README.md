@@ -8,9 +8,11 @@ that's because **lists are treated and compared according to reference rather th
 _______________________________________________________________
 
 #### Note
-The concrete class itself is parameterized genric, you can optionally pass the data type of the element that will be stored within the lest, either it's `int`, `double`,...etc.
+- It's preferable to use abstraction layers to hide concrete implementation detials, so the `AbstractDimensionalList` `abstract` layer is used to conform to Dependency inversion principle (DIP).
 
-Parametrized generic type can be ommited, but it will be treated as `dynamic`, so you cn store different data types within the same list, it becomes `List<dynamic>`.
+- The concrete class itself is parameterized genric, you can optionally pass the data type of the element that will be stored within the list, either it's `int`, `double`,...etc.
+
+- Parametrized generic type can be ommited, but it will be treated as `dynamic`, so you cn store different data types within the same list, it becomes `List<dynamic>`.
 
 #### Coming Updates
 
