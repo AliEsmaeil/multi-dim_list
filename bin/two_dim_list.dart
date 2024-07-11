@@ -1,7 +1,8 @@
+import 'abstract_dim_list.dart';
 import 'dim_list.dart';
 
 void main() {
-  DimensionalList<int> list = DimensionalList.twoDimensional();
+  AbstractDimensionalList list = DimensionalList<int>.twoDimensional();
   list.addElement([1, 2]);
   list.addElement([3, 4]);
 
