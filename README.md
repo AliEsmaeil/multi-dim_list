@@ -12,7 +12,7 @@ _______________________________________________________________
 
 - The concrete class itself is parameterized genric, you can optionally pass the data type of the element that will be stored within the list, either it's `int`, `double`,...etc.
 
-- Parametrized generic type can be ommited, but it will be treated as `dynamic`, so you cn store different data types within the same list, it becomes `List<dynamic>`.
+- Parametrized generic type can be ommited, but it will be treated as `dynamic`, so you can store different data types within the same list, it becomes `List<dynamic>`.
 
 #### Coming Updates
 
